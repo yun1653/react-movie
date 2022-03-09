@@ -21,9 +21,11 @@ function Detail() {
     <div>
       <Link to="/">Home</Link>
       <h1>{movie.title}</h1>
-      {movie.genres?.map((item) => (
-        <div>{item}</div>
-      ))}
+      <div>
+        {movie.genres?.map((item) => (
+          <span>{item}</span>
+        ))}
+      </div>
       <img src={movie.medium_cover_image} alt="" />
       <p>{movie.description_full}</p>
     </div>
