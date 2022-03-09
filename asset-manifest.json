@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/yun1653/react-movie.git/static/js/main.857cc1bb.js",
-    "index.html": "/yun1653/react-movie.git/index.html",
-    "main.857cc1bb.js.map": "/yun1653/react-movie.git/static/js/main.857cc1bb.js.map"
+    "main.js": "/react-movie/static/js/main.857cc1bb.js",
+    "index.html": "/react-movie/index.html",
+    "main.857cc1bb.js.map": "/react-movie/static/js/main.857cc1bb.js.map"
   },
   "entrypoints": [
     "static/js/main.857cc1bb.js"
