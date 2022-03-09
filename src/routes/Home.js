@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Movie from '../components/Movie';
+import styles from './Home.module.css';
 
 function Home() {
   const url =
@@ -16,9 +17,13 @@ function Home() {
     getMovies();
   }, []);
   return (
-    <div>
-      {loading ? <h1>Loading...</h1> : null}
-      <div>
+    <div className={styles.container}>
+      {loading ? (
+        <div className={styles.loader}>
+          <span>Loading...</span>
+        </div>
+      ) : null}
+      <div className={styles.movies}>
         {movies.map((item) => {
           return (
             <Movie
